@@ -5,10 +5,8 @@ Skills used: Joins, CTE's, Temp Tables, Sub-Queries, Window Functions, Aggregate
 */
 
 -- Total number of races from 1950-2021
-SELECT 
-	count(raceId)
-FROM
-	races;
+SELECT count(raceId)
+FROM races;
     
 -- Number of races at each circuit
 
